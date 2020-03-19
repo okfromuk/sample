@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+<link rel="stylesheet" type="text/css" href="r3.css">
+</head>
+<style>
+body{
+background-img:url(C:/Users/laptech/Desktop/New folder (2)/ddd.jpg width=100% height=150px);
+background-size:100%;
+}
+
+
+</style>
+<body background="joanna-szumska-661142-unsplash.jpg">
+<div id="nav">
+	<h2>ENTER THE PAINTING DETAILS</h2>
+	<form name="form" method="post" action="painting2.jsp">
+	<input type="text" pattern="[a-zA-Z][a-zA-Z ]+[a-zA-Z]$" placeholder="ARTIST_NAME" name="aname"required><br>
+	
+	<input type="text" placeholder="PAINT_TYP" name="type"required><br>
+	<input type="text" pattern="[6789][0-9]{9}" placeholder="PHONE" name="phone"required><br>
+	
+	<input type="text" placeholder="PRICE" name="price"required><br>
+	<input type="date" placeholder="DATE" name="date"required><br>
+	<input type="text" placeholder="TITLE" name="title"required><br>
+	<input type="submit" value="Register"><br>
+	<li class="active"> <a href="insertinto2.html">BACK</a></li>
+	
+	</form>
+</div>
+	
+</body>
+</html>

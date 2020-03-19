@@ -1,0 +1,42 @@
+<html>
+   <head>
+      <title>homepage</title>
+	  <link href="homepage.css" rel="stylesheet" type="text/css">
+	</head>
+	<script type="text/javascript">
+history.pushState(null,null,location.href);
+window.onpopstate = function () {
+	history.go(1);
+}
+</script>
+	<style>
+	body{
+background-img:url(F:/desktop/j2ee/code/my proj/a.jpg width=100% height=150px);
+background-size:100%;
+}
+
+
+</style>
+
+  <body background="frank-mckenna-150516-unsplash.jpg">
+    <div>
+      <ul>
+         <li><a href="homepage.html">HOME</a></li>
+		 <li><a href="admin_login.html"  >ADMIN LOG IN</a></li>
+		 <li><a href= "artist_login.html">ARTIST LOG IN</a></li>
+		 		 <li><a href= "customer_login.html">CUSTOMER LOG IN</a></li>
+		 
+		 <li><a href="about.html">ABOUT US</a>
+		 <li><a href="#">CONTACT US</a>
+		  
+		  <ul>
+			  <li><a href="email.html">email</a></li>
+			  <li><a href="phone.html">phone</a></li>
+			 
+		   </ul>
+		  </li>
+	</ul>
+</div>
+</body>
+</html>	
+      		 

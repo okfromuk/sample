@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<center>
+<h2><p><u>ADMIN REGISTRATION</u></p></h2>
+<style>
+body {
+	background-image: url("david-mullins-1145116-unsplash.jpg");
+	background-image: no repeat;
+	background-size: cover;
+	style ="width: 500px";
+}
+
+html {
+	height: 100%;
+}
+</style>
+<body>
+
+<body background="alexander-popov-1075908-unsplash.jpg"
+	background-size:auto />
+</center>
+<body>
+<form action="admin_register.jsp" method="POST">
+			<div class="signup-content">
+                    <form method="POST" id="signup-form" class="signup-form">
+                        <h2 class="form-title">Create account</h2>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="username"  id="username" pattern="[a-zA-Z][a-zA-Z ]+[a-zA-Z]$"placeholder="Your Name"/  required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="password" class="form-input" name="password" id="password" placeholder="password"/>
+                            <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" name="email" id="email" placeholder="Your Email"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="phone" class="form-input" name="phone" id="phone" pattern="[6789][0-9]{9}"  placeholder="phone number"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="Sign up"/>
+                        </div>
+                    </form>
+</body>
+</html>

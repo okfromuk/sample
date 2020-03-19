@@ -1,0 +1,78 @@
+<html>
+<head>
+<title> Insert Page</title>
+</head>
+<style>
+
+body{
+background-image:url(fabrizio-conti-1145617-unsplash.jpg.jpg width=100% height=150px);
+background-size:100%;
+
+}
+header,footer {
+    padding: 0.2em;
+    color: black;
+    background-color:5F9EA0;
+    clear: left;
+    text-align: center;
+	opacity:0.8;
+}
+.button {
+  border-radius: 40px;
+  background-color: #5F9EA0;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.s;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow:0 0px 0px rgba(0,0,0,0.7);
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+ 
+.button:hover span:after {
+  opacity: 0.9;
+  right: 0;
+}
+</style>
+<body background="fabrizio-conti-1145617-unsplash.jpg.jpg">
+<header>
+<font color="black" face="Lucida Calligraphy" size="5">
+   <h3>Search from Required Table</h3>
+</header><br><br><br>
+<p>
+
+<a href="search_artist.html"><button class="button"><span>ARTIST TAB</span></button></a><br><br><br><br>
+<a href="search_gallery.html"><button class="button"><span>GALLARY TAB</span></button></a><br><br><br><br>
+<a href="search_painting.html"><button class="button"><span>PAINTING TAB</span></button></a><br><br><br>
+<a href="search_customer.html"><button class="button"><span>CUSTOMER TAB</span></button></a><br><br><br><br>
+<a href="search_participation.html"><button class="button"><span>PARTICIPATION TAB</span></button></a><br><br><br><br>
+<a href="search_exhibition.html"><button class="button"><span>EXHIBITION TAB</span></button></a><br><br><br><br>
+<p>
+			<li class="active"> <a href="selection.html">BACK</a></li>
+			</p>
+</p>
+</body>
+</html>
